@@ -4,6 +4,7 @@ print ("var1[0]:",var1[0])
 print ("var2[1:5]:",var2[1:5])
 print ("y" in  var1)
 print ("p" not in var1)
+print (f"Hello {var1} {var2}") # string format
 
 name = 'python'
 number = 99
