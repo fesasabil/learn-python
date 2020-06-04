@@ -88,3 +88,22 @@ for elem in list:
 for elem in list[:3]:
     list.remove(elem)
     print(elem)
+
+# new_list = []	
+#     for elem in list[2:]:
+#         new_list.append(elem)
+#         print(“New List: {}”.format(new_list))
+
+
+# List Comprehensions
+# list_of squares = []
+#     for int in range(1, 10):
+#         square = int ** 2
+#         list_of_squares.append(square)
+
+#     print(list_of_squares)
+
+# list_of_squares_2 = [int**2 for int in range(1, 10)]
+
+#     print('List of squares using list comprehension: {}'.format(list_of_squares_2))
+
